@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Interior Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="interiordesign.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="sidebar red collapse top large padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="close()" class="button hide-large display-topleft" style="width:100%;font-size:22px"><mark>close menu</mark></a>
+  <div class="container">
+     <h3 class="padding-64"><b>Company<br>Name</b></h3> 
+  </div>
+  <div class="bar-block">
+    <a href="home.html" onclick="close()" class="bar-item button hover-white">Home</a> 
+    <a href="showcase.html" onclick="close()" class="bar-item button hover-white">Showcase</a> 
+    <a href="services.html" onclick="close()" class="bar-item button hover-white">Services</a> 
+    <!-- <a href="designers.html" onclick="close()" class="bar-item button hover-white">Designers</a> -->
+    <a href="packages.html" onclick="close()" class="bar-item button hover-white">Packages</a> 
+    <a href="contact.html" onclick="close()" class="bar-item button hover-white">Contact Us</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="container top hide-large red xlarge padding">
+  <a href="javascript:void(0)" class="button red margin-right" onclick="open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="overlay hide-large" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="main" style="margin-left:340px;margin-right:40px">
+
+<div class="container" style="margin-top:75px">
+    <h1 class="xxxlarge text-red"><b>DESIGNERS</b></h1>
+    <hr style="width:50px;border:5px solid red" class="round">
+    <p><h3 style="color: darkviolet;">The best team in the world.</h3></p>
+    <p style="color: darkslateblue; background-color: cyan;">Individual commitment to a group effort -- that is what makes a team work, a company work, a society work, a civilization work.
+        Every person in our team is equally commited to their work and they love doing it.This is what it makes our team <u>THE BEST</u>.
+        We all love to help people change their home and surroundings with the help of interior design.
+    </p>
+    <p><b>Our designers are thoughtfully chosen</b></p>
+  </div>
+
+  <!-- The Team -->
+  <div class="col f6 margin-bottom">
+      <div class="light-grey">
+        <img src="bhavya.jpg" alt="jhanvi" style="width:30% align:center; height:170px;">
+        <div class="container">
+          <h3>Bhavya Narang</h3>
+          <p><b>CSE F1,1903115</b></p>
+          <p style="color: chocolate;"><i><b>"Design dont save the world, but it will surely make it look good."</b></i></p>
+        </div>
+      </div>
+    </div>
+    
+     <div class="col f6 margin-bottom">
+      <div class="light-grey">
+        <img src="kriti.jpg" alt="kriti" style="width: 35%; align:center; height:170px;">
+        <div class="container">
+          <h3>Kritidha Batra</h3>
+            <p><b>CSE F2,1903140</b></p>
+          <p><b>"A room should never allow the eye to settle in one place.It should smile at you and create fantasy."</b></p>
+        </div>
+      </div>
+    </div>
+  <!-- FOOTER -->
+    <div class="jumbo" style="font-size: 20px; color: darkgoldenrod; font-weight: bolder;"><marquee> MADE BY BHAVYA NARANG(1903115) AND KRITIDHA BATRA (1903140)</marquee></div>

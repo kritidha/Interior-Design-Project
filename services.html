@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Interior Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="interiordesign.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px; background-color: aqua;}
+.half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="sidebar red collapse top large padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="close()" class="button hide-large display-topleft" style="width:100%;font-size:22px"><mark>close menu</mark></a>
+  <div class="container">
+     <h3 class="padding-64"><b>Company<br>Name</b></h3> 
+  </div>
+  <div class="bar-block">
+    <a href="home.html" onclick="close()" class="bar-item button hover-white">Home</a> 
+    <a href="showcase.html" onclick="close()" class="bar-item button hover-white">Showcase</a>  
+    <!-- <a href="services.html" onclick="close()" class="bar-item button hover-white">Services</a> --> 
+    <a href="Designers.html" onclick="close()" class="bar-item button hover-white">Designers</a> 
+    <a href="packages.html" onclick="close()" class="bar-item button hover-white">Packages</a> 
+    <a href="contact.html" onclick="close()" class="bar-item button hover-white">Contact Us</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="container top hide-large red xlarge padding">
+  <a href="javascript:void(0)" class="button red margin-right" onclick="open()">☰</a>
+  <span>Company Name</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="overlay hide-large" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="main" style="margin-left:340px;margin-right:40px">
+
+
+<div class="container" style="margin-top:75px">
+    <h1 class="xxxlarge text-red"><b><mark>Services.</mark></b></h1>
+    <hr style="width:50px;border:5px solid red" class="round">
+    <p style="font-size: 30px;">𝐖𝐞 𝐚𝐫𝐞 𝐚 𝐢𝐧𝐭𝐞𝐫𝐢𝐨𝐫 𝐝𝐞𝐬𝐢𝐠𝐧 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐭𝐡𝐚𝐭 𝐟𝐨𝐜𝐮𝐬 𝐨𝐧 𝐰𝐡𝐚𝐭'𝐬 𝐛𝐞𝐬𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮𝐫 𝐡𝐨𝐦𝐞 𝐚𝐧𝐝 𝐰𝐡𝐚𝐭'𝐬 𝐛𝐞𝐬𝐭 𝐟𝐨𝐫 𝐲𝐨𝐮!</p>
+    <p style="color: blue; font-size: 30px;"><b>About Our Services</b>
+        <br>
+        <p style="font-family: sans-serif; color: green; font-size: 20px;">It is are major concern to provide you with <strong>THE BEST.</strong>Interior design is beautiful and pleasing to the eye.We love to help clients turn their home into something beautiful and it warms our heart and makes us happy to see them excited at how their home looks. We love to make people happy that way it is a true blessing.Our education, qualifications, and licenses, combined with the knowledge of life safety and budgets lead to designing an <mark><b>Inspiring Space.</b></mark>.  <h3 style="font-weight: bold; color: crimson;">Interior spaces can make a difference in how life is experienced.</h3></p>
+    <!-- FOOTER -->
+    <div class="jumbo" style="font-size: 20px; color: darkgoldenrod; font-weight: bolder;"><marquee> MADE BY BHAVYA NARANG(1903115) AND KRITIDHA BATRA (1903140)</marquee></div>
